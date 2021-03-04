@@ -1,5 +1,5 @@
 import os
-import catalog
+from databricks import catalog
 from dotenv import load_dotenv
 
 load_dotenv()

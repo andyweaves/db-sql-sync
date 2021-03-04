@@ -1,4 +1,4 @@
-import commands_api
+from databricks import commands_api
 
 
 class DatabricksCatalog:
