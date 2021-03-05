@@ -4,6 +4,11 @@ import time
 
 class Wrapper:
 
+    """
+    Wrapper around the Databricks REST API (See the docs below for more detail)
+    https://docs.databricks.com/dev-tools/api/latest/index.html
+    """
+
     def __init__(self, workspace, token):
         self.workspace = workspace
         self.token = token
